@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/python-3.12.2-blue)
 
-- Полный ход исследование доступно [здесь.](eda/SolvedV3-TensorFlow.ipynb)
+- Полный ход исследование [здесь.](eda/SolvedV3-TensorFlow.ipynb)
 - Обучающий датасет [здесь.](https://drive.google.com/file/d/11F12ZLCc0VTLBoYzc-pMmo2Guc63LQ7S/view)
 - Веса модели [здесь.](https://drive.google.com/file/d/1jSPhTBuYNTCSndeqsdRIhvj_-wCatEfh/view)
 
