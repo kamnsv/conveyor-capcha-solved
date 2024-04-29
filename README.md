@@ -1,5 +1,7 @@
 # Описание
 
+![](https://img.shields.io/badge/python-3.12.2-blue)
+
 [Полный ход исследование доступно здесь.](eda/SolvedV3-TensorFlow.ipynb)
 
 > Обучение модели было произведено на *GPU NVIDIA GeForce RTX 3060 Ti 8192MiB*
