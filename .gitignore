@@ -1,6 +1,6 @@
 */.vscode/
 .vscode/
-
+app/model/
 test/
 
 *png.bkp
