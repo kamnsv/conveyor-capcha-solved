@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/python-3.12.2-blue)
 
-- [Полный ход исследование доступно здесь.](eda/SolvedV3-TensorFlow.ipynb)
-- [Обучающий датасет здесь](https://drive.google.com/file/d/11F12ZLCc0VTLBoYzc-pMmo2Guc63LQ7S/view)
-- [Веса модели здесь](https://drive.google.com/file/d/1jSPhTBuYNTCSndeqsdRIhvj_-wCatEfh/view)
+- Полный ход исследование доступно [здесь.](eda/SolvedV3-TensorFlow.ipynb)
+- Обучающий датасет [здесь.](https://drive.google.com/file/d/11F12ZLCc0VTLBoYzc-pMmo2Guc63LQ7S/view)
+- Веса модели [здесь.](https://drive.google.com/file/d/1jSPhTBuYNTCSndeqsdRIhvj_-wCatEfh/view)
 
 > Обучение модели было произведено на *GPU NVIDIA GeForce RTX 3060 Ti 8192MiB*
 
