@@ -1,0 +1,37 @@
+version: '3.0'
+services:
+  tensorflow:
+    container_name: tensorflow-gpu
+    image: thegeeksdiary/tensorflow-jupyter-gpu:latest
+    restart: unless-stopped
+    volumes:
+      - ./eda:/environment/notebooks
+      - ./data:/environment/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['0']
+            capabilities: [gpu]
+    ports:
+      - '8888:8888'
+    networks:
+      - jupyter
+    environment:
+      - TF_ENABLE_ONEDNN_OPTS=1
+
+  vectorstore:
+    container_name: vectorstore
+    image: qdrant/qdrant:latest
+    volumes:
+    - qdrant:/data
+    ports:
+    - '6333:6333'
+    networks:
+    - jupyter
+    restart: always
+
+networks:
+  jupyter:
+    driver: bridge
